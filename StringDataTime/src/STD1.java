@@ -3,8 +3,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.Scanner;
 
-public class STD1
-{
+public class STD1 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         String n = reader.next();

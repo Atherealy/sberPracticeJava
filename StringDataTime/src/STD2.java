@@ -2,8 +2,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class STD2
-{
+public class STD2 {
     public static char get(String s) throws Exception
     {
         if (s.length() == 0)
