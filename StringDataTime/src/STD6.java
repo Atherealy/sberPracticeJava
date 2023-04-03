@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class STD6 {
+public class STD6
+{
     private static final DateTimeFormatter format = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-    public static List<LocalDate> daysBetweenDates(String beginDate, String endDate) {
+    public static List<LocalDate> daysBetweenDates(String beginDate, String endDate)
+    {
         LocalDate firstDate = LocalDate.parse(beginDate, format);
         LocalDate lastDate = LocalDate.parse(endDate, format);
 
@@ -16,7 +18,8 @@ public class STD6 {
         return dates;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner reader = new Scanner(System.in);
         String begDate = reader.next();
         String eDate = reader.next();
