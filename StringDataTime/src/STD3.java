@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class HM3 {
+class STD3 {
     static String commonPrefixUtil(String str1, String str2)
     {
         String result = "";

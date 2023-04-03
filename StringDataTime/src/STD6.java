@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class HM6 {
+public class STD6 {
     private static final DateTimeFormatter format = DateTimeFormatter.ofPattern("dd.MM.yyyy");
     public static List<LocalDate> daysBetweenDates(String beginDate, String endDate) {
         LocalDate firstDate = LocalDate.parse(beginDate, format);

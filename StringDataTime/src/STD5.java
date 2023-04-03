@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
-public class HM5 {
+public class STD5 {
     private static final DateTimeFormatter format = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
     public static long Age(String Now, String Birthday) {

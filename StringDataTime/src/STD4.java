@@ -1,4 +1,4 @@
-public class HM4 {
+public class STD4 {
     public static void main(String[] args) {
 
         String str1 = new String("abc, abdc abcd qwertyabc");
